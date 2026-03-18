@@ -2,7 +2,7 @@
   "id": "tor2e-shadow-player",
   "title": "TOR2e - Shadow Player",
   "description": "<p>Overrides TOR2 translation labels for Shadow-aligned player characters (orcs, servants of the Enemy)</p>",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -47,5 +47,5 @@
     ]
   },
   "manifest": "https://raw.githubusercontent.com/Dispositif/tor2e-shadow-player/main/module.json",
-  "download": "https://github.com/Dispositif/tor2e-shadow-player/archive/refs/tags/0.2.0.zip"
+  "download": "https://github.com/Dispositif/tor2e-shadow-player/archive/refs/tags/0.3.0.zip"
 }
