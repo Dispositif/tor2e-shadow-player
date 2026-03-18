@@ -77,7 +77,7 @@
         "fellowship": "Unity",
         "skillPoints": "Skill Points",
         "reputationPoints": "Reputation Points",
-        "heroicStature": "Heroic Stature",
+        "heroicStature": "Stature",
         "treasure": "Treasure",
         "background": "Background",
         "company": "Company",
@@ -157,18 +157,18 @@
         "armour": "Armour",
         "endurance": "Endurance",
         "load": "Load",
-        "hope": "Hope",
-        "maxHope": "Max Hope",
+        "hope": "Hate",
+        "maxHope": "Max Hate",
         "maxEndurance": "Max Endurance",
         "rating": "Initial Value",
         "travelLoad": "Fatigue",
         "shadow": "Doom",
         "temporary": "Temporary",
-        "shadowScars": "Mark of Doom",
+        "shadowScars": "Doom marks",
         "canBeAPatron": "Can be a Patron ?",
         "initial": "Initial",
         "fellowshipPoints": "Unity Points",
-        "eyeAwareness": "Eye Awareness",
+        "eyeAwareness": "White Council Awareness",
         "current": "Current",
         "faction": "Faction",
         "health": "Health",
@@ -655,12 +655,12 @@
     },
     "callings": {
       "groups": {
-        "captain": "Captain",
-        "scholar": "Scholar",
-        "champion": "Champion",
-        "treasure-hunter": "Treasure Hunter",
-        "messenger": "Messenger",
-        "warden": "Warden"
+        "captain": "Desecrator",
+        "scholar": "Lieutenant",
+        "champion": "Profiteer",
+        "treasure-hunter": "Scavenger",
+        "messenger": "Sorcerer",
+        "warden": "Soldier"
       }
     },
     "armour": {
@@ -734,16 +734,16 @@
       "actions": {
         "rest": {
           "dialog-box": {
-            "title": "Recover Hope point(s) from Unity",
+            "title": "Recover Hate point(s) from Unity",
             "community-point-label": "Community Points available",
             "required-hope-points": "How many points do you want to recover ?",
-            "actor-hope-points": "Hope points (current/max):",
+            "actor-hope-points": "Hate points (current/max):",
             "submit-button": "Recover",
             "cancel-button": "Cancel",
             "warn": {
               "one-community_actor_expected": "One and only one Community Actor should exist in the World !",
-              "not-enough-hope-points-available": "Not enough Hope points available in the Pool (required: {required}, available: {available})",
-              "too-many-hope-points-required": "Too many Hope points required (total: {target}, max available: {max})"
+              "not-enough-hope-points-available": "Not enough Hate points available in the Pool (required: {required}, available: {available})",
+              "too-many-hope-points-required": "Too many Hate points required (total: {target}, max available: {max})"
             }
           },
           "short": {
@@ -764,7 +764,7 @@
           }
         },
         "roll": {
-          "hope": "Spend a point of hope to add",
+          "hope": "Spend a point of Hate to add",
           "lore": "Roll a Lore skill test",
           "fatigue": "Roll a Fatigue test",
           "skill": " roll"
@@ -901,11 +901,11 @@
         "options": {
           "roll-characteristics": {
             "title": "Roll Characteristics",
-            "hope-points": "Hope point(s) left",
+            "hope-points": "hate point(s) left",
             "is-weary": "is weary.",
             "is-miserable": "is miserable.",
             "is-magical": "is magical.",
-            "has-spent-hope": "hope point bonus.",
+            "has-spent-hope": "hate point bonus.",
             "is-inspired": "is inspired.",
             "is-supported": "is supported.",
             "has-support": "has support.",
@@ -931,15 +931,15 @@
             "label": "Bonus/Penalty Dice Value",
             "hint": "enter a negative value for penalties and a positive value for bonuses"
           },
-          "hope-point-bonus-dice": "Hope Point Bonus Die",
-          "no-hope-left": "No hope point left !",
+          "hope-point-bonus-dice": "Hate Point Bonus Die",
+          "no-hope-left": "No hate point left !",
           "inspired": "Inspired",
           "mastery-dice": "Mastery Dice",
           "favoured-ill-favoured": "Favoured/Ill-Favoured",
           "bonus-penalty": "Bonus/Penalty",
           "support-die": "Support from a Companion",
           "advanced": "Advanced",
-          "hope": "Hope",
+          "hope": "Hate",
           "worst": "worst",
           "best": "best",
           "health-impacts": "Health impacts",
@@ -967,7 +967,7 @@
         "actorNotFound": "No actor has been found with actorID: {actorId} and tokenId:{tokenId}"
       },
       "warn": {
-        "characterHasNotBeenUsedToCreateTheAction": "The action you want to spend hope point on has not been created by a Character, but by {actorName} !"
+        "characterHasNotBeenUsedToCreateTheAction": "The action you want to spend hate point on has not been created by a Character, but by {actorName} !"
       }
     },
     "rolls": {
@@ -1276,7 +1276,7 @@
     "setExtendedWeaponSelectionDescription": "This parameter should only be activated if the Loremaster wants to use homebrew rules for combat (ie. new combat proficiencies). By activating this parameter, a new field will appear in the weapon sheet to make a link with the new combat proficiency instead of the weapon group name.",
     "setUseAdversarySkills": "Allow the use of Skills for Adversary",
     "setUseAdversarySkillsDescription": "In 2nd edition, adversaries don't have skills in their sheet anymore. Toggling this setting to true allows the LM to add the block back to the Adversary Sheet.",
-    "setOverrideEyeAwareness": "Override Eye Awareness Max value",
+    "setOverrideEyeAwareness": "Override White Council Awareness Max value",
     "setOverrideEyeAwarenessDescription": "By default, max value is 24 but if you want you can modify this value to another value depending on your needs.",
     "setRawModeForActiveEffectName": "Change Active Effect selection mode",
     "setRawModeForActiveEffectDescription": "If you need to do some specific stuff and you know what you are doing, you can toggle the Active selection mode (Checked : List mode/Unchecked: Raw mode (text input box)).",

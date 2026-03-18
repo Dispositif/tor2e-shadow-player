@@ -21,7 +21,7 @@
     "setModifiedLoadAsRequestedDescription": "Autorisez des règles-maison qui modifient comment la charge des objets portés impacte l'alerte d'état Epuisé. Par défaut, l'alerte apparait lorsque l'Endurance est inférieure ou égale à la Charge. Par exemple, pour diminuer la Charge de la valeur de Force (c'est à dire permettre aux personnages de porter l'équivalent de leur valeur de Corps en charge).  Exemple : saisir attributes.strength or un nombre entier dans le champ).",
     "setNoneCustomCombatSpecialEffect": "Ajouter le Dégat Spécial [ Aucun ]",
     "setNoneCustomCombatSpecialEffectDescription": "Ajouter un nouveau Dégat Spécial, nommé [ Aucun ]. Règle maison.",
-    "setOverrideEyeAwareness": "Remplacer la valeur maximale de la Vigilance de l'Oeil.",
+    "setOverrideEyeAwareness": "Remplacer la valeur maximale de la Vigilance du Conseil Blanc.",
     "setOverrideEyeAwarenessDescription": "Par défaut, la valeur maximale est de 24. Mais vous pouvez la modifier selon votre souhait.",
     "setPauseMessage": "Message de Pause affiché",
     "setPauseMessageDescription": "Indiquer ici le message de pause à afficher. Laisser vide pour avoir le message par défaut de Foundry.",
@@ -164,7 +164,7 @@
         "equipment-gear": "Équipement",
         "fellowship": "Bande",
         "fellowshipPhase": "Phase de bande",
-        "heroicStature": "Stature héroïque",
+        "heroicStature": "Stature",
         "journey-log": "Journal de Voyage",
         "location": "Localisation",
         "members": "Membres",
@@ -293,12 +293,12 @@
     },
     "callings": {
       "groups": {
-        "desecrator": "Profanateur",
-        "lieutenant": "Lieutenant",
-        "profiteer": "Profiteur",
-        "scavenger": "Charognard",
-        "sorcerer": "Sorcier",
-        "soldier": "Soldat"
+        "captain": "Profanateur",
+        "scholar": "Lieutenant",
+        "champion": "Profiteur",
+        "treasure-hunter": "Charognard",
+        "messenger": "Sorcier",
+        "warden": "Soldat"
       }
     },
     "chat": {
