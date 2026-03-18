@@ -1,0 +1,51 @@
+{
+  "id": "tor2e-shadow-player",
+  "title": "TOR2e - Shadow Player",
+  "description": "<p>Overrides TOR2 translation labels for Shadow-aligned player characters (orcs, servants of the Enemy)</p>",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Soren",
+      "flags": {}
+    }
+  ],
+  "url": "http://somewhere.com",
+  "flags": {
+    "canUpload": true
+  },
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json",
+      "flags": {}
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "tor2e",
+        "type": "system",
+        "manifest": "https://gitlab.com/herve.darritchon/foundryvtt-tor2e/-/raw/main/src/system.json",
+        "compatibility": {
+          "verified": "5.5.2"
+        }
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/TON-USER/tor2e-shadow-player/main/module.json",
+  "download": "https://github.com/TON-USER/tor2e-shadow-player/archive/refs/tags/v0.1.0.zip"
+}
